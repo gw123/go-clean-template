@@ -28,9 +28,9 @@ services:
       RMQ_URL: 'amqp://guest:guest@rabbitmq:5672/'
     ports:
       - 8080:8080
-    depends_on:
-      - postgres
-      - rabbitmq
+#    depends_on:
+#      - postgres
+#      - rabbitmq
 
 #  integration:
 #    build:
